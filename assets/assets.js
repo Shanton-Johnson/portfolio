@@ -85,6 +85,7 @@ export const workData = [
   { title: 'Geo based app', description: 'Mobile App', bgImage: '/work-2.png', category: 'Mobile', link: 'https://example.com' },
   { title: 'Photography site', description: 'Web Design', bgImage: '/work-3.png', category: 'Web', link: 'https://example.com' },
   { title: 'UI/UX designing', description: 'UI/UX Design', bgImage: '/work-4.png', category: 'Design', link: 'https://example.com' },
+  { title: 'Photography site', description: 'Web Design', bgImage: '/work-3.png', category: 'Gaming', link: 'https://shanton-johnson.itch.io/get-started-with-unity' },
 ];
 
 // 🛠️ Services

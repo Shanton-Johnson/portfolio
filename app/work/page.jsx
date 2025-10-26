@@ -5,7 +5,7 @@ import Image from "next/image"
 import React, { useState } from "react"
 import { motion, AnimatePresence } from "framer-motion"
 
-const categories = ["All", "Web", "Mobile", "Design"]
+const categories = ["All", "Web", "Mobile", "Design", "Gaming"]
 
 const WorkPage = () => {
   const [activeTab, setActiveTab] = useState("All")
