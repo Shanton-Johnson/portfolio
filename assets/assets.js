@@ -1,3 +1,4 @@
+// update
 import user_image from './user-image.png';
 import code_icon from './code-icon.png';
 import code_icon_dark from './code-icon-dark.png';
@@ -77,26 +78,34 @@ export const assets = {
 };
 
 export const workData = [
-    {
-        title: 'Frontend project',
-        description: 'Web Design',
-        bgImage: '/work-1.png',
-    },
-    {
-        title: 'Geo based app',
-        description: 'Mobile App',
-        bgImage: '/work-2.png',
-    },
-    {
-        title: 'Photography site',
-        description: 'Web Design',
-        bgImage: '/work-3.png',
-    },
-    {
-        title: 'UI/UX designing',
-        description: 'UI/UX Design',
-        bgImage: '/work-4.png',
-    },
+  {
+    title: 'Frontend project',
+    description: 'Web Design',
+    bgImage: '/work-1.png',
+    category: 'Web',
+    link: 'https://example.com'
+  },
+  {
+    title: 'Geo based app',
+    description: 'Mobile App',
+    bgImage: '/work-2.png',
+    category: 'Mobile',
+    link: 'https://example.com'
+  },
+  {
+    title: 'Photography site',
+    description: 'Web Design',
+    bgImage: '/work-3.png',
+    category: 'Web',
+    link: 'https://example.com'
+  },
+  {
+    title: 'UI/UX designing',
+    description: 'UI/UX Design',
+    bgImage: '/work-4.png',
+    category: 'Design',
+    link: 'https://example.com'
+  },
 ]
 
 export const serviceData = [
@@ -115,3 +124,4 @@ export const infoList = [
 export const toolsData = [
     assets.vscode, assets.firebase, assets.mongodb, assets.figma, assets.git
 ];
+
